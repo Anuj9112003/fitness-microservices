@@ -14,7 +14,7 @@ const ActvitiesPage = () => {
     <ActivityList />
   </Box>);
 }
-// nefkew
+
 
 function App() {
   const { token, tokenData, logIn, logOut, isAuthenticated } = useContext(AuthContext);
